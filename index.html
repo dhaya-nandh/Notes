@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notes Writing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<link rel="stylesheet" href="style.css">
 <body>
     <div class="container">
         <h1>Write Notes</h1>
-        <button id="plus" onclick="adding()"> Create Notes </button>
+        <div class="notes">
+            <h3>Creating Notes</h3>
+            <button id="plus"><img src="img/pen.png" alt="Add Note"></button>
+            <h5><i class="fa-solid fa-arrow-left"></i>click here</h5>
+        </div>
         <div class="pages">
-            <textarea id="text"></textarea> 
-            <button id="btn" onclick="deleteButton(event)">Delete</button>   
+            <!-- Notes will be added here -->
         </div> 
     </div>
-    <script src="main.js"></script>
+    <script src="main.js" ></script>
 </body>
 </html>
