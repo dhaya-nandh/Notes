@@ -24,6 +24,13 @@ body{
 .notes h5{
     margin-left: 10px;
     margin-top: 5px;
+    animation: blink 2s infinite;
+}
+@keyframes blink {
+    50%{
+        opacity: 0;
+    }
+    
 }
  h5 i{
     margin-left:10px;
